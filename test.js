@@ -1,6 +1,6 @@
 function showTime() {
     const date = new Date();
-    return date.getHours() + "Hrs: "+ d
+    return date.getHours() + "Hrs: "+ date.getMinutes() +"Mins: "+date.getSeconds()+" Secs";
 }
 let XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 function makePromiseCall(methodType, url, async = true, data = null){
